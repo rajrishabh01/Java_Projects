@@ -1,5 +1,7 @@
 package com.deloitte.payroll;
 
+import static javax.swing.JOptionPane.*;
+
 public class Employee {
 	
 	private int empID;
@@ -49,8 +51,7 @@ public class Employee {
 
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		showMessageDialog(null, "Su Prabhat", "Training", 0);
 	}
 
 }
