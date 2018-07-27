@@ -6,7 +6,7 @@ public class MainOther {
 		String temp;
 		temp = "C"+"A"+"B"+"E"+"F"+"D";
 		
-		temp.compareTo(ts);
+		//temp.compareTo(ts);
 	}
 
 }
