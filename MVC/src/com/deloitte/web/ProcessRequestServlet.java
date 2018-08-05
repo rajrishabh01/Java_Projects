@@ -55,7 +55,7 @@ public class ProcessRequestServlet extends HttpServlet {
 				
 			} else {
 				request.getRequestDispatcher("LoginDHF2343.jsp?flag=true").forward(request, response);
-				;
+				
 			}
 		} catch (NamingException | SQLException e) {
 			// TODO Auto-generated catch block
